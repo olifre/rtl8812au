@@ -2040,6 +2040,7 @@ hal_ReadIDs_8812AU(
 		pHalData->CustomerID = RT_CID_DNI_BUFFALO;
 	else if (((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3314)) ||
 		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x804B)) ||
+		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805A)) ||
 		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805B)) ||
 		((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3315)) ||
 		((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3316)))
@@ -2209,6 +2210,7 @@ hal_CustomizeByCustomerID_8812AU(
 		pHalData->CustomerID = RT_CID_DNI_BUFFALO;
 	else if (((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3314)) ||
 		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x804B)) ||
+		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805A)) ||
 		((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805B)) ||
 		((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3315)) ||
 		((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3316)))
@@ -2236,6 +2238,7 @@ hal_CustomizeByCustomerID_8812AU(
 			pHalData->CustomerID = RT_CID_DNI_BUFFALO;
 		else if (((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3314)) ||
 			((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x804B)) ||
+			((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805A)) ||
 			((pHalData->EEPROMVID == 0x20F4) && (pHalData->EEPROMPID == 0x805B)) ||
 			((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3315)) ||
 			((pHalData->EEPROMVID == 0x2001) && (pHalData->EEPROMPID == 0x3316)))
